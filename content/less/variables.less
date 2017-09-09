@@ -1,0 +1,238 @@
+// Font
+// @font-site:                       'Open Sans', sans-serif;
+@font-site:                          Roboto, sans-serif;
+@font-icon:                          'icomoon';
+
+// Breakpoints
+@breakpoint-xs-min:                  320px;
+@breakpoint-xs-max:                  (@breakpoint-sm-min - 1);
+@breakpoint-sm-min:                  768px;
+@breakpoint-sm-max:                  (@breakpoint-md-min - 1);
+@breakpoint-md-min:                  991px;
+@breakpoint-md-max:                  (@breakpoint-lg-min - 1);
+@breakpoint-lg-min:                  1200px;
+@breakpoint-lg-max:                  (@breakpoint-xlg-min - 1);
+@breakpoint-xlg-min:                 1600px;
+
+// Color
+@color-blue:                         #2196f3;
+@color-blue-dark:                    #1976d2;
+@color-yellow:                       #ffc000;
+@color-green:                        #07ba90;
+@color-green-light:                  #48bfa3;
+@color-green-dark:                   #1f9b7d;
+@color-red:                          #e23d3d;
+@color-gray:                         #3d3d3d;
+
+// Aside
+@aside-background:                   rgba(255, 255, 255, 1);
+@aside-width:                        64px;
+
+// Main
+@main-list-height:                   3em;
+@main-list-ckeck-icon-height:        40px;
+@main-sticky-footer-height:          52px;
+
+// List
+@list-footer-padding:                3px;
+
+// Icon
+@icon-height:                        15px;
+@icon-small-font-size:               150%;
+@icon-medium-font-size:              200%;
+@icon-large-font-size:               250%;
+@icon-small-vertical-align:          -10%;
+@icon-medium-vertical-align:         -16%;
+@icon-large-vertical-align:          -22%;
+
+// Margin
+@margin-padding:                     20px;
+
+// Block
+@block-padding-vertical:             20px;
+@block-background-gray:              #3d3d3d;
+
+// Panel
+@panel-padding:                      20px;
+
+// Input
+@input-padding:                      10px;
+@input-margin:                       10px;
+@input-padding-search:               9px;
+@input-border-color-search:          #d6d6d6;
+@input-text-color:                   #333;
+@input-background:                   #fff;
+@input-border-color:                 #ddd;
+@input-border-color-focus:           #2196f3;
+@input-border-bottom-color:          #ddd;
+@input-border-bottom-color-active:   #FFC716;
+@input-search-border-color:          #dadada;
+@input-border-radius:                0;
+@input-border-radius--big:           100px;
+@input-tags-border-color:            #bdbdbd;
+@label-font-size:                    10px;
+@label-line-height:                  @label-font-size + 4px;
+@label-margin:                       5px;
+
+// Link
+@link-margin:                        10px;
+
+// Button
+@btn-height:                         30px;
+@btn-padding:                        5px 20px 5px;
+@btn-font-size:                      14px;
+
+// ~ Button large
+@btn-height-large:                   64px;
+@btn-line-height-large:              62px;
+@btn-font-size-large:                16px;
+@btn-padding-horizontal-large:       30px;
+@btn-border-radius:                  40px;
+
+// ~ Button medium
+@btn-height-md:                      64px;
+@btn-line-height-md:                 62px;
+@btn-font-size-md:                   16px;
+@btn-padding-horizontal-md:          30px;
+@btn-border-radius-md:               40px;
+@btn-paddin-md:                      12px 30px 12px;
+
+// ~ Button primary
+// @btn-primary-background:          #e7f3ff;
+// @btn-primary-color:               #188bf5;
+// @btn-primary-hover-background:    #c7e3ff;
+// @btn-primary-hover-color:         #2196f3;
+// @btn-primary-active-background:   #c7e3ff;
+// @btn-primary-active-color:        #2196f3;
+
+// ~ Button success
+@btn-success-background:             @color-green;
+@btn-success-color:                  #fff;
+@btn-success-hover-background:       @color-green-light;
+@btn-success-hover-color:            #fff;
+@btn-success-active-background:      @color-green-light;
+@btn-success-active-color:           #fff;
+@btn-success-focus-background:       @color-green-dark;
+@btn-success-focus-color:            #fff;
+@btn-success-box-shadow:             0 2px 5px rgba(21, 190, 150, 0.4);
+@btn-success-hover-box-shadow:       0 8px 10px -5px rgba(5,105,81,0.4);
+
+// ~ Button border
+@btn-border-background:              #fff;
+@btn-border-color:                   @color-green;
+@btn-border-hover-background:        @color-green;
+@btn-border-hover-color:             #fff;
+@btn-border-active-background:       @color-green;
+@btn-border-active-color:            #fff;
+@btn-border-focus-background:        @color-green;
+@btn-border-focus-color:             #fff;
+@btn-border-box-shadow:              0 2px 5px rgba(21, 190, 150, 0.4);
+
+@btn-del-box-shadow:                 0 2px 5px rgba(226, 61, 61, 0.4);
+
+@btn-mini-height:                    20px;
+@btn-small-height:                   25px;
+@btn-line-height:                    30px;
+@btn-mini-line-height:               20px;
+@btn-small-line-height:              25px;
+@btn-mini-font-size:                 11px;
+@btn-small-font-size:                12px;
+@btn-padding-horizontal:             14px;
+@btn-mini-padding-horizontal:        6px;
+@btn-small-padding-horizontal:       10px;
+@btn-background:                     #fff;
+@btn-color:                          #90a4ae;
+@btn-hover-background:               #ececec;
+@btn-hover-color:                    #333;
+@btn-active-background:              #ececec;
+@btn-active-color:                   #333;
+// @btn-border-color:                #dcdcdc;
+@btn-radio-border:                   #dcdcdc;
+@btn-radio-border-active:            rgba(24, 162, 75, 1);
+@btn-radio-border-hover:             rgba(24, 162, 75, 0.4);
+@btn-radio-img-selected:             rgba(24, 162, 75, 0.7);
+@btn-success-active-color:           #fff;
+@btn-disabled-background:            #f5f5f5;
+@btn-disabled-color:                 #999;
+@btn-link-color:                     #07D;
+@btn-link-hover-color:               #059;
+@btn-link-hover-text-decoration:     underline;
+@btn-link-disabled-color:            #999;
+
+@btn-background-success-dark:        #026f37;
+@btn-color-success-dark:             #fff;
+@btn-background-success-dark-hover:  #026f37;
+@btn-color-success-dark-hover:       #fff;
+@btn-background-success-dark-active: #026f37;
+@btn-color-success-dark-active:      #fff;
+
+// Icon
+@icon-height:                        20px;
+@icon-font-size:                     20px;
+@icon-line-height:                   20px;
+
+@icon-height-mini:                   15px;
+@icon-font-size-mini:                15px;
+@icon-line-height-mini:              15px;
+
+@icon-height-sm:                     18px;
+@icon-font-size-sm:                  18px;
+@icon-line-height-sm:                18px;
+
+@icon-height-md:                     25px;
+@icon-font-size-md:                  25px;
+@icon-line-height-md:                25px;
+
+@icon-height-lg:                     30px;
+@icon-font-size-lg:                  30px;
+@icon-line-height-lg:                30px;
+
+@icon-font-size:                     1rem;
+@icon-font-size-mini:                0.5rem;
+@icon-font-size-sm:                  0.7rem;
+@icon-font-size-md:                  1.5rem;
+@icon-font-size-lg:                  2rem;
+@icon-font-size-xlg:                 4rem;
+
+// Modal
+@modal-background:                   #fff;
+@modal-padding:                      20px;
+@modal-width:                        50%;
+@modal-width-sm:                     (@modal-width / 2);
+@modal-width-md:                     (@modal-width  * 1.5);
+@modal-width-lg:                     (@modal-width * 1.9);
+@modal-tab-width:                    150px;
+@modal-tab-background:               #f4f4f4;
+@modal-background-gray:              #f4f4f4;
+
+// Pipeline
+@pipeline-background:                #f4f4f4;
+@pipeline-height:                    50px;
+
+// Avatar
+@avatar-height:                      40px;
+@avatar-height-xlarge:               @avatar-height * 5;
+@avatar-height-large:                @avatar-height * 3;
+@avatar-height-medium:               @avatar-height * 1.5;
+@avatar-height-small:                @avatar-height / 2;
+@avatar-height-mini:                 @avatar-height / 3;
+@avatar-font-size:                   1.5rem;
+@avatar-font-size-xlarge:            3.5rem;
+@avatar-font-size-large:             2rem;
+@avatar-font-size-medium:            1rem;
+@avatar-background-empty:            #fff;
+@avatar-border-color-dashed:         #ddd;
+@avatar-border-color-solid:          #eee;
+
+// Checkbox
+@checkbox-font-size:                 1rem;
+@checkbox-line-height:               22px;
+@checkbox-height:                    22px;
+
+// Upload
+@upload-progress-height:             10px;
+@upload-progress-height-xs:          (@upload-progress-height / 2);
+
+// Top menu
+@top-menu-height:                    60px;
+@top-menu-height-xs:                 60px;

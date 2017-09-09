@@ -1,0 +1,154 @@
+// out: ../../content/css/utilits.css, compress: true
+@import "variables.less";
+// Name:            utilits
+// -------------------------------------------------------
+// Block '.m' ~ margin
+// -------------------------------------------------------
+.m {
+    margin: @margin-padding 0 !important;
+
+    &--label{
+        margin-top: 22px;
+    }
+
+    &--profile{
+        margin-top: 40px;
+    }
+
+    // Small
+    &--sm {
+        margin: (@margin-padding / 2) 0 !important;
+    }
+    // Mini
+    &--mini {
+        margin: (@margin-padding / 4) 0 !important;
+    }
+    // Full-small
+    &--full-sm {
+        margin: (@margin-padding / 2) !important;
+    }
+    // Full-mini
+    &--full-mini {
+        margin: (@margin-padding / 4) !important;
+    }
+    // Bottom
+    &--b {
+        margin: 0 0 @margin-padding !important;
+
+        &-xlg {
+            margin: 0 0 (@margin-padding * 4);
+        }
+
+        &-lg {
+            margin: 0 0 (@margin-padding * 2);
+        }
+
+        &-sm {
+            margin: 0 0 (@margin-padding / 2);
+        }
+
+        &-mini {
+            margin: 0 0 (@margin-padding / 4);
+        }
+    }
+    // Top
+    &--t {
+        margin: @margin-padding 0 0 !important;
+
+        &-xxxlg {
+            margin: (@margin-padding * 12) 0 0 !important;
+        }
+
+        &-xxlg {
+            margin: (@margin-padding * 8) 0 0 !important;
+        }
+
+        &-xlg {
+            margin: (@margin-padding * 4) 0 0 !important;
+        }
+        &-mlg {
+            margin: (@margin-padding * 3) 0 0 !important;
+        }
+
+        &-lg {
+            margin: (@margin-padding * 2) 0 0 !important;
+        }
+
+        &-md {
+            margin: (@margin-padding * 1.5) 0 0 !important;
+        }
+
+        &-sm {
+            margin: (@margin-padding / 2) 0 0 !important;
+        }
+
+        &-mini {
+            margin: (@margin-padding / 4) 0 0 !important;
+        }
+
+        &-reset {
+            margin-top: 0 !important;
+        }
+
+        // Reverse
+        &-reverse{
+            margin-top: -@margin-padding !important;
+        }
+    }
+    // Right
+    &--r {
+        margin: 0 @margin-padding 0 0 !important;
+
+        &-sm {
+            margin: 0 (@margin-padding / 2) 0 0;
+        }
+
+        &-mini {
+            margin: 0 (@margin-padding / 4) 0 0;
+        }
+    }
+    // Left
+    &--l {
+        margin: 0 0 0 @margin-padding !important;
+
+        &-sm {
+            margin: 0 0 0 (@margin-padding / 2);
+        }
+
+        &-mini {
+            margin: 0 0 0 (@margin-padding / 4);
+        }
+    }
+    // Auto
+    &--auto {
+        margin: 0 auto;
+    }
+    // Vertical margin
+    &--v {
+        margin: @margin-padding 0 !important;
+
+        &-xlg {
+            margin: (@margin-padding * 4) 0 !important;
+        }
+
+        &-lg {
+            margin: (@margin-padding * 2) 0 !important;
+        }
+
+        &-md {
+            margin: (@margin-padding * 1.5) 0 !important;
+        }
+
+        &-sm {
+            margin: (@margin-padding / 2) 0 !important;
+        }
+
+        &-5 {
+            margin: 5px 0;
+        }
+    }
+    // Reset
+    &--reset {
+        margin: 0 !important;
+    }
+}

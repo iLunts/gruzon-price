@@ -26,11 +26,20 @@
     }
     // Element '.price-table .price-table__plan'
     & &__plan{
-    
+        font-size: 1.6rem;
+    }
+
+    & &__splite{
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+        border: none;
+        border-top: 2px solid #EEB523;
     }
 
     & &__price{
-    
+        font-size: 1.2rem;
+        font-weight: 300;
     }
 
     & &__row{
@@ -39,8 +48,13 @@
             text-align: center;
 
             &:first-child{
-                // text-align: left;
+                text-align: left;
                 border-left: none;
+                white-space: nowrap;
+                color: #5b5e6d;
+                line-height: 1.5;
+                padding: 20px;
+                font-size: .8rem;
             }
         }
     }
@@ -56,6 +70,10 @@
             color: #323648;
             font-weight: 700;
             font-size: .8rem;
+        }
+
+        &.price-table__col--bt{
+            border-top: 1px solid #ebebeb;
         }
     }
     

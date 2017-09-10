@@ -1,4 +1,5 @@
 // out: ../../content/css/price-table.css, compress: true
+@import 'variables.less';
 // Name:            price-table
 // ---------------------------------------------------
 // Block '.price-table'
@@ -27,7 +28,8 @@
     & &__plan{
         font-size: 1.6rem;
     }
-
+    
+    // Element '.price-table .price-table__splite'
     & &__splite{
         display: block;
         width: 20%;
@@ -35,17 +37,35 @@
         border: none;
         border-top: 2px solid #EEB523;
     }
+    
+    // Element '.price-table .price-table__svg-apply'
+    & &__svg{
+        vertical-align: middle;
+        display: inline-block;
 
+        &.price-table__svg--yes{
+            fill: @color-green;
+        }
+
+        &.price-table__svg--no{
+            fill: @color-muted;
+        }
+    }
+
+    // Element '.price-table .price-table__price'
     & &__price{
         font-size: 1.2rem;
         font-weight: 300;
     }
-
+    
+    // Element '.price-table .price-table__row'
     & &__row{
-
+        
+        // Element '.price-table .price-table__row .price-table__col'
         .price-table__col{
             text-align: center;
-
+            
+            // Element '.price-table .price-table__row .price-table__col:first-child'
             &:first-child{
                 text-align: left;
                 border-left: none;
@@ -58,11 +78,13 @@
         }
     }
 
+    // Element '.price-table .price-table__col'    
     & &__col{
         border-left: 1px solid #EBEBEB;
         line-height: 1.5;
         padding: 0 20px;
-
+        
+        // Element '.price-table .price-table__col.price-table__col--header'    
         &.price-table__col--header{
             background: #ebebeb;
             padding: 8px 20px;
@@ -70,23 +92,27 @@
             font-weight: 700;
             font-size: .8rem;
         }
-
+        
+        // Element '.price-table .price-table__col.price-table__col--bt'    
         &.price-table__col--bt{
             border-top: 1px solid #ebebeb;
         }
     }
     
+    // Element '.price-table .price-table__desc'    
     & &__desc{
         display: block;
         line-height: 1.5;
         color: #5b5e6d;
         
+        // Element '.price-table .price-table__desc.price-table__desc--sm'    
         &.price-table__desc--sm{
             font-size: .8rem;
-
+            
         }
     }
-
+    
+    // Element '.price-table .price-table__presentation'    
     & &__presentation{
         color: #07ba90;
         margin: 20px 0;
